@@ -190,3 +190,24 @@ button {
   color: #fff;
   font-size: 2rem;
 }
+.mid-section {
+  margin: 32px 0;
+  display: flex;
+}
+.mid-section .flex {
+  width: 48.5%;
+}
+.mid-section h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.mid-section p {
+  font-size: 1.6rem;
+}
+.mid-section ul li {
+  font-size: 1.6rem;
+  border: 1px solid #D7DADD;
+  padding: 1rem;
+  border-radius: 4px;
+}
