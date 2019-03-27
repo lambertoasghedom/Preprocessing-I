@@ -62,6 +62,14 @@ html {
 }
 // my styles
 
+// variables 
+@lightgrey: #E9ECEF;
+@normalFontSize: 1.6rem; 
+ 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .container {
 	width: 844px;
 	margin: 0 auto;
@@ -71,13 +79,54 @@ html {
 	display: flex;
     justify-content: flex-end;
     font-size: 1.6rem;
-	margin-top: 32px;
+	margin: 32px 0;
 	
 	li {
-		margin-right: 2.8rem;
+		margin-right: 2.3rem;
 	}
 
 	li:last-child {
 		margin-right: 0;
 	}
+}
+
+.intro {
+	height: 100vh;
+	background: @lightgrey;
+	border-radius: 3px;
+	padding: 0 2.4rem;
+
+	img {
+		height: 370px;
+    	width: 309px;
+    	padding-top: 6rem;
+    	padding-bottom: 2.4rem;
+		// will fix padding asap
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: bold;
+		padding-bottom: 2.2rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 2.2rem;
+		border-bottom: 1px solid#D7DADD;
+	}
+	
+	p {
+		font-size: @normalFontSize;
+		padding: 2.2rem 0;
+	}
+}
+
+button {
+	width: 16rem;
+    height: 5rem;
+    border-radius: .7rem;
+    background: #808080;
+    color: #fff;
+    font-size: 2rem;
 }
