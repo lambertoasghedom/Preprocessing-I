@@ -190,6 +190,9 @@ button {
   color: #fff;
   font-size: 2rem;
 }
+.left {
+  margin-right: 2.5rem;
+}
 .mid-section {
   margin: 32px 0;
   display: flex;
@@ -210,4 +213,31 @@ button {
   border: 1px solid #D7DADD;
   padding: 1rem;
   border-radius: 4px;
+}
+.bottom-header {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #D7DADD;
+  padding-bottom: 1rem;
+}
+.work-history {
+  font-size: 1.6rem;
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  justify-content: space-between;
+}
+.work-history .heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer {
+  margin-top: 2rem;
+  height: 8rem;
+  background: #808080;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 4rem;
 }
