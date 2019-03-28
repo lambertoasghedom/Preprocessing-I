@@ -57,3 +57,153 @@ html, body {
     height: 100%;
 }
 
+html {
+	font-size: 62.5%;
+}
+// my styles
+
+// variables 
+@lightgrey: #E9ECEF;
+@normalFontSize: 1.6rem; 
+ 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 844px;
+	margin: 0 auto;
+}
+// navbar
+.navbar ul {
+	display: flex;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+	margin: 32px 0;
+	
+	li {
+		margin-right: 2.3rem;
+	}
+
+	li:last-child {
+		margin-right: 0;
+	}
+}
+// intro
+.intro {
+	height: 100vh;
+	background: @lightgrey;
+	border-radius: 3px;
+	padding: 0 2.4rem;
+
+	img {
+		height: 370px;
+    	width: 309px;
+    	padding-top: 6rem;
+    	padding-bottom: 2.4rem;
+		// will fix padding asap
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: bold;
+		padding-bottom: 2.2rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 2.2rem;
+		border-bottom: 1px solid#D7DADD;
+	}
+	
+	p {
+		font-size: @normalFontSize;
+		padding: 2.2rem 0;
+	}
+}
+
+button {
+	width: 16rem;
+    height: 5rem;
+    border-radius: .7rem;
+    background: #808080;
+    color: #fff;
+    font-size: 2rem;
+}
+// mid-section
+.left {
+	margin-right: 2.5rem;
+}
+
+.mid-section {
+	margin: 32px 0;
+	display: flex;
+
+	.flex {
+		width: 48.5%;
+	}
+
+	h2 {
+		font-size: 2rem;
+		padding-bottom: 1rem;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: @normalFontSize;
+	}
+
+	ul li {
+		font-size: @normalFontSize;
+		font-size: 1.6rem;
+    	border: 1px solid #D7DADD;
+    	padding: 1rem;
+    	border-radius: 4px;
+	}
+}
+
+.bottom-header {
+	font-size: 2rem;
+	font-weight: bold;
+	border-bottom: 1px solid#D7DADD;
+	padding-bottom: 1rem;
+}
+
+.work-history {
+	font-size: @normalFontSize;
+	font-size: 1.6rem;
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 3rem;
+	justify-content: space-between;
+	
+	ul li {
+		// border: 1px solid #D7DADD;
+	}
+
+	.heading {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+}
+
+footer {
+	margin-top: 2rem;
+	height: 8rem;
+	background: #808080;
+	color: #fff;
+	font-size: @normalFontSize;
+	font-size: 1.6rem;
+	text-align: center;
+	padding-top: 4rem;
+}
+
+
+
+
+
+
+
+
+

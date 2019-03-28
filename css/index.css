@@ -1,1 +1,243 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 844px;
+  margin: 0 auto;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.6rem;
+  margin: 32px 0;
+}
+.navbar ul li {
+  margin-right: 2.3rem;
+}
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+.intro {
+  height: 100vh;
+  background: #E9ECEF;
+  border-radius: 3px;
+  padding: 0 2.4rem;
+}
+.intro img {
+  height: 370px;
+  width: 309px;
+  padding-top: 6rem;
+  padding-bottom: 2.4rem;
+}
+.intro h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding-bottom: 2.2rem;
+}
+.intro h2 {
+  font-size: 2rem;
+  padding-bottom: 2.2rem;
+  border-bottom: 1px solid #D7DADD;
+}
+.intro p {
+  font-size: 1.6rem;
+  padding: 2.2rem 0;
+}
+button {
+  width: 16rem;
+  height: 5rem;
+  border-radius: 0.7rem;
+  background: #808080;
+  color: #fff;
+  font-size: 2rem;
+}
+.left {
+  margin-right: 2.5rem;
+}
+.mid-section {
+  margin: 32px 0;
+  display: flex;
+}
+.mid-section .flex {
+  width: 48.5%;
+}
+.mid-section h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.mid-section p {
+  font-size: 1.6rem;
+}
+.mid-section ul li {
+  font-size: 1.6rem;
+  border: 1px solid #D7DADD;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.bottom-header {
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #D7DADD;
+  padding-bottom: 1rem;
+}
+.work-history {
+  font-size: 1.6rem;
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  justify-content: space-between;
+}
+.work-history .heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer {
+  margin-top: 2rem;
+  height: 8rem;
+  background: #808080;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 4rem;
+}
